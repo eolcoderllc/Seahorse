@@ -1,191 +1,107 @@
-# 🎨 macOS Compositing Modes Gallery
+# Core Image Compositing Modes
 
-An artistic exploration of macOS’s compositing (blend) modes using real photos.
-
----
-
-## 1. Normal
-- **Description:** Shows the top layer as-is. No blending.
-- **Image:** ![Normal Blend](https://via.placeholder.com/400x300?text=Normal)
+This document explains the main compositing modes available in Core Image on macOS/iOS, with artistic descriptions and linked examples hosted on Apple’s developer site.
 
 ---
 
-## 2. Darken
-- **Effect:** Keeps darker pixels from either image.
-- **Artistic feel:** Shadows deepen, moody.
-- **Image:** ![Darken](https://via.placeholder.com/400x300?text=Darken)
+## Add
+
+Brightens the image by adding the source and background pixel values. Useful for highlights and light effects.
+
+![Add](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIAdditionCompositing.png)
 
 ---
 
-## 3. Multiply
-- **Effect:** Multiplies brightness values → always darker.
-- **Artistic feel:** Rich contrast, film-like depth.
-- **Image:** ![Multiply](https://via.placeholder.com/400x300?text=Multiply)
+## Multiply
+
+Darkens the image by multiplying source and background colors. Great for shadows and shading effects.
+
+![Multiply](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIMultiplyCompositing.png)
 
 ---
 
-## 4. Color Burn
-- **Effect:** Intensifies and deepens; contrast boost.
-- **Artistic feel:** Dramatic, gritty.
-- **Image:** ![Color Burn](https://via.placeholder.com/400x300?text=Color+Burn)
+## Darken
+
+Keeps the darker pixels of source or background. Good for layering shadows or textures.
+
+![Darken](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIDarkenBlendMode.png)
 
 ---
 
-## 5. Linear Burn
-- **Effect:** Darkens more subtly than Color Burn.
-- **Artistic feel:** Soft, darkened tones.
-- **Image:** ![Linear Burn](https://via.placeholder.com/400x300?text=Linear+Burn)
+## Lighten
+
+Keeps the lighter pixels of source or background. Useful for brightening and glow effects.
+
+![Lighten](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CILightenBlendMode.png)
 
 ---
 
-## 6. Lighten
-- **Effect:** Keeps lighter pixels.
-- **Artistic feel:** Bright, airy highlights.
-- **Image:** ![Lighten](https://via.placeholder.com/400x300?text=Lighten)
+## Overlay
+
+Combines Multiply and Screen modes, enhancing contrast and saturation.
+
+![Overlay](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIOverlayBlendMode.png)
 
 ---
 
-## 7. Screen
-- **Effect:** Inverts–multiplies–inverts → lightens image.
-- **Artistic feel:** Ethereal glow, soft focus.
-- **Image:** ![Screen](https://via.placeholder.com/400x300?text=Screen)
+## Screen
+
+Brightens the image by inversely multiplying the colors. Good for glows and light overlays.
+
+![Screen](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIScreenBlendMode.png)
 
 ---
 
-## 8. Color Dodge
-- **Effect:** Brightens highlights heavily.
-- **Artistic feel:** Flashy, high-glow effect.
-- **Image:** ![Color Dodge](https://via.placeholder.com/400x300?text=Color+Dodge)
+## Soft Light
+
+Applies a soft diffuse lighting effect, subtly brightening or darkening.
+
+![Soft Light](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CISoftLightBlendMode.png)
 
 ---
 
-## 9. Linear Dodge (Add)
-- **Effect:** Intensely lightens; additive.
-- **Artistic feel:** Vivid, electric highlights.
-- **Image:** ![Linear Dodge](https://via.placeholder.com/400x300?text=Linear+Dodge)
+## Hard Light
+
+Combines Multiply and Screen but with stronger contrast, like shining a harsh spotlight.
+
+![Hard Light](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIHardLightBlendMode.png)
 
 ---
 
-## 10. Overlay
-- **Effect:** Combines Multiply & Screen.
-- **Artistic feel:** Punchy contrast, vivid textures.
-- **Image:** ![Overlay](https://via.placeholder.com/400x300?text=Overlay)
+## Difference
+
+Subtracts darker colors, creating an inverted or “difference” look.
+
+![Difference](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIDifferenceBlendMode.png)
 
 ---
 
-## 11. Soft Light
-- **Effect:** Gentle highlight/shadow enhancement.
-- **Artistic feel:** Warm, cinematic tones.
-- **Image:** ![Soft Light](https://via.placeholder.com/400x300?text=Soft+Light)
+## Exclusion
+
+Similar to Difference but with lower contrast for subtler effects.
+
+![Exclusion](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIExclusionBlendMode.png)
 
 ---
 
-## 12. Hard Light
-- **Effect:** Sharp contrast (overlay-like).
-- **Artistic feel:** Edgy, high-contrast drama.
-- **Image:** ![Hard Light](https://via.placeholder.com/400x300?text=Hard+Light)
+## Source In
+
+Shows the source only where the background exists; useful for masking.
+
+![Source In](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CISourceInCompositing.png)
 
 ---
 
-## 13. Vivid Light
-- **Effect:** Extremely strong dodging/burning.
-- **Artistic feel:** Intense, graphic pop.
-- **Image:** ![Vivid Light](https://via.placeholder.com/400x300?text=Vivid+Light)
+## Source Out
+
+Shows the source where the background is transparent; useful for “cutouts”.
+
+![Source Out](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CISourceOutCompositing.png)
 
 ---
 
-## 14. Linear Light
-- **Effect:** Linear dodge & burn.
-- **Artistic feel:** Balanced punch.
-- **Image:** ![Linear Light](https://via.placeholder.com/400x300?text=Linear+Light)
+## Destination Over
 
----
+Draws the background over the source.
 
-## 15. Pin Light
-- **Effect:** Replaces tones based on thresholds.
-- **Artistic feel:** Stylized, posterized.
-- **Image:** ![Pin Light](https://via.placeholder.com/400x300?text=Pin+Light)
-
----
-
-## 16. Hard Mix
-- **Effect:** Reduces palette to primary colors.
-- **Artistic feel:** Pop-art, surreal.
-- **Image:** ![Hard Mix](https://via.placeholder.com/400x300?text=Hard+Mix)
-
----
-
-## 17. Difference
-- **Effect:** Subtracts color values; inverts.
-- **Artistic feel:** Abstract, psychedelic.
-- **Image:** ![Difference](https://via.placeholder.com/400x300?text=Difference)
-
----
-
-## 18. Exclusion
-- **Effect:** Similar to Difference, softer.
-- **Artistic feel:** Subtle inversion, dreamy.
-- **Image:** ![Exclusion](https://via.placeholder.com/400x300?text=Exclusion)
-
----
-
-## 19. Subtract
-- **Effect:** Darkens by subtracting brightness.
-- **Artistic feel:** Graphic, contrasty.
-- **Image:** ![Subtract](https://via.placeholder.com/400x300?text=Subtract)
-
----
-
-## 20. Divide
-- **Effect:** Brightens by dividing brightness.
-- **Artistic feel:** Bleach bypass, ethereal.
-- **Image:** ![Divide](https://via.placeholder.com/400x300?text=Divide)
-
----
-
-## 21. Hue
-- **Effect:** Applies hue from blend to base.
-- **Artistic feel:** Color wash, painterly.
-- **Image:** ![Hue](https://via.placeholder.com/400x300?text=Hue)
-
----
-
-## 22. Saturation
-- **Effect:** Applies saturation from blend.
-- **Artistic feel:** Moody desat or punchy color.
-- **Image:** ![Saturation](https://via.placeholder.com/400x300?text=Saturation)
-
----
-
-## 23. Color
-- **Effect:** Applies hue and saturation only.
-- **Artistic feel:** Tinted, dreamy washes.
-- **Image:** ![Color](https://via.placeholder.com/400x300?text=Color)
-
----
-
-## 24. Luminosity
-- **Effect:** Applies brightness only.
-- **Artistic feel:** Soft, nuanced tone shifts.
-- **Image:** ![Luminosity](https://via.placeholder.com/400x300?text=Luminosity)
-
----
-
-## 25. Source‑Atop / In / Out (Porter-Duff)
-- **Effect:** Controls compositing of opaque regions.
-- **Artistic feel:** Clean masking effects.
-- **Image:** ![SourceAtop](https://via.placeholder.com/400x300?text=SourceAtop)
-
----
-
-## 26. Destination‑Over / Out
-- **Effect:** Reverses order of drawing.
-- **Artistic feel:** Underlays, cutouts.
-- **Image:** ![DestinationOver](https://via.placeholder.com/400x300?text=DestinationOver)
-
----
-
-## 27. Plus Darker / Plus Lighter
-- **Effect:** Enhanced darken/lighten search.
-- **Artistic feel:** Strong tonal shifts.
-- **Image:** ![PlusDarker](https://via.placeholder.com/400x300?text=PlusDarker)
+![Destination Over](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIDestinationOverCompositing.png)
