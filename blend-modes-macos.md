@@ -8,7 +8,7 @@ This document explains the main compositing modes available in Core Image on mac
 
 Brightens the image by adding the source and background pixel values. Useful for highlights and light effects.
 
-![Add](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIAdditionCompositing.png)
+![Add](https://docs-assets.developer.apple.com/published/850255fdcb98366a0fe7ffc82ce931b1/media-3546408%402x.png)
 
 ---
 
