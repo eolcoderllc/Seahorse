@@ -104,11 +104,11 @@ Replaces brightness while preserving hue and saturation.
 
 ### Source In  
 Shows the source only where the background exists; useful for masking.  
-![Source In](https://docs-assets.developer.apple.com/published/fbe77ebf330b4ed9aa2628f1ab5df57d/media-3546409%402x.png)
+![Source In](https://docs-assets.developer.apple.com/published/fc624344d8a68faaa285115603f73c27/media-3546393%402x.png)
 
 ### Source Out  
 Shows the source only where the background is transparent; useful for “cutouts”.  
-![Source Out](https://docs-assets.developer.apple.com/published/c716c8d9966b2d738b28f10f73a2a18c/media-3546407%402x.png)
+![Source Out](https://docs-assets.developer.apple.com/published/12eca8bb9047a812577f7e7e45a56f6b/media-3546394%402x.png)
 
 ### Destination Over  
 Draws the background over the source.  
