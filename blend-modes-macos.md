@@ -40,23 +40,23 @@ Applies a soft diffuse lighting effect, subtly brightening or darkening.
 
 ### Hard Light  
 Combines Multiply and Screen but with stronger contrast, like shining a harsh spotlight.  
-![Hard Light](https://docs-assets.developer.apple.com/published/1cfa5f0a3702e584b3a804b46d4a7e94/media-3546423%402x.png)
+![Hard Light](https://docs-assets.developer.apple.com/published/1d03a04d72c25b3351f013a7a656eacb/media-3546419%402x.png)
 
 ### Difference  
 Subtracts darker colors, creating an inverted or “difference” look.  
-![Difference](https://docs-assets.developer.apple.com/published/691a36c10e1f6e4c243d7f7e1e4f00bf/media-3546421%402x.png)
+![Difference](https://docs-assets.developer.apple.com/published/b8ad8666e41c9d807777fb0511420cc7/media-3546397%402x.png)
 
 ### Exclusion  
 Similar to Difference but with lower contrast for subtler effects.  
-![Exclusion](https://docs-assets.developer.apple.com/published/79e2a1920dfd1c425f681726390098e9/media-3546422%402x.png)
+![Exclusion](https://docs-assets.developer.apple.com/published/bcf39409de803bac298bd54e302a84a5/media-3546411%402x.png)
 
 ### Color Dodge  
 Brightens the background to reflect the source image, increasing contrast.  
-![Color Dodge](https://docs-assets.developer.apple.com/published/b09b20b7ef0d788441fafff56443bc8b/media-3546415%402x.png)
+![Color Dodge](https://docs-assets.developer.apple.com/published/575af3aae41202604fe04d23b82e50f7/media-3546418%402x.png)
 
 ### Color Burn  
 Darkens the background to reflect the source image, increasing shadows.  
-![Color Burn](https://docs-assets.developer.apple.com/published/ca62e83c254f7a96f3fcdac167a27e0f/media-3546410%402x.png)
+![Color Burn](https://docs-assets.developer.apple.com/published/f5fddad6ca54b508c4fba656d099fdab/media-3546399%402x.png)
 
 ### Linear Dodge  
 Adds pixel values, aggressively brightening the image.  
@@ -64,19 +64,19 @@ Adds pixel values, aggressively brightening the image.
 
 ### Linear Burn  
 Subtracts pixel values, intensely darkening the image.  
-![Linear Burn](https://docs-assets.developer.apple.com/published/7af230e01bc69c46f54ae7069654c3d8/media-3546410%402x.png)
+![Linear Burn](https://docs-assets.developer.apple.com/published/904c7771377899996781ec8ee9425ca8/media-3546415%402x.png)
 
 ### Vivid Light  
 Combination of Color Dodge and Color Burn to intensify highlights and shadows.  
-![Vivid Light](https://docs-assets.developer.apple.com/published/8d726a29d4945e9a1a24a33168b1b38f/media-3546415%402x.png)
+![Vivid Light](https://docs-assets.developer.apple.com/published/7a399b3bb44e1bdda387b6c2966a1d99/media-4407307%402x.png)
 
 ### Linear Light  
 Adds or subtracts pixels based on source brightness, for strong lighting effects.  
-![Linear Light](https://docs-assets.developer.apple.com/published/f415b76ce70e9b098fe816c0954d65ec/media-3546415%402x.png)
+![Linear Light](https://docs-assets.developer.apple.com/published/6bdf22ab09bde8745f14009343bb0238/media-4407310%402x.png)
 
 ### Pin Light  
 Replaces pixels depending on brightness, creating striking contrasts.  
-![Pin Light](https://docs-assets.developer.apple.com/published/6a4d345508d43b85b2e58038468cc0ee/media-3546415%402x.png)
+![Pin Light](https://docs-assets.developer.apple.com/published/84129d656aef8aa793587971b553870b/media-3546414%402x.png)
 
 ### Hard Mix  
 Adds high contrast posterization, turning pixels fully black or white.  
@@ -84,19 +84,19 @@ Adds high contrast posterization, turning pixels fully black or white.
 
 ### Hue  
 Replaces hue while preserving saturation and brightness.  
-![Hue](https://docs-assets.developer.apple.com/published/17a4f2b5d0492e86ab1a01b4607b94f8/media-3546415%402x.png)
+![Hue](https://docs-assets.developer.apple.com/published/b6e2d1cf8904120975dd33de34b1d861/media-3546412%402x.png)
 
 ### Saturation  
 Replaces saturation while preserving hue and brightness.  
-![Saturation](https://docs-assets.developer.apple.com/published/cf01d07f019db4e0dbd2b0ec44f57f31/media-3546415%402x.png)
+![Saturation](https://docs-assets.developer.apple.com/published/714ca45e3700dec0fffcad8ad45cbd39/media-3546404%402x.png)
 
 ### Color  
 Replaces hue and saturation while preserving brightness.  
-![Color](https://docs-assets.developer.apple.com/published/c8b7ed379bc811787cd2768e4d9e8d97/media-3546415%402x.png)
+![Color](https://docs-assets.developer.apple.com/published/c6d84a8ac4674865d4fede908c976df0/media-3546407%402x.png)
 
 ### Luminosity  
 Replaces brightness while preserving hue and saturation.  
-![Luminosity](https://docs-assets.developer.apple.com/published/9d79054892d43a3810ff2a6a3a3e31b7/media-3546415%402x.png)
+![Luminosity](https://docs-assets.developer.apple.com/published/d24866f4a3636c88648d2039524eb63b/media-3546410%402x.png)
 
 ---
 
