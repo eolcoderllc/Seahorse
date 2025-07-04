@@ -16,7 +16,7 @@ Brightens the image by adding the source and background pixel values. Useful for
 
 Darkens the image by multiplying source and background colors. Great for shadows and shading effects.
 
-![Multiply](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIMultiplyCompositing.png)
+![Multiply](https://docs-assets.developer.apple.com/published/53f73125ebba05a4dbd91a7bbd735e2d/media-3546403%402x.png)
 
 ---
 
@@ -24,7 +24,7 @@ Darkens the image by multiplying source and background colors. Great for shadows
 
 Keeps the darker pixels of source or background. Good for layering shadows or textures.
 
-![Darken](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIDarkenBlendMode.png)
+![Darken](https://docs-assets.developer.apple.com/published/26d75f0a4bd011875c3889ea932f478f/media-3546416%402x.png)
 
 ---
 
@@ -32,7 +32,7 @@ Keeps the darker pixels of source or background. Good for layering shadows or te
 
 Keeps the lighter pixels of source or background. Useful for brightening and glow effects.
 
-![Lighten](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CILightenBlendMode.png)
+![Lighten](https://docs-assets.developer.apple.com/published/d5b0a6807e69a0e688169bf4d166626b/media-3546398%402x.png)
 
 ---
 
@@ -40,7 +40,7 @@ Keeps the lighter pixels of source or background. Useful for brightening and glo
 
 Combines Multiply and Screen modes, enhancing contrast and saturation.
 
-![Overlay](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIOverlayBlendMode.png)
+![Overlay](https://docs-assets.developer.apple.com/published/6a33f91bf21f21594a4a1d2ba71b1c59/media-3546406%402x.png)
 
 ---
 
@@ -48,7 +48,7 @@ Combines Multiply and Screen modes, enhancing contrast and saturation.
 
 Brightens the image by inversely multiplying the colors. Good for glows and light overlays.
 
-![Screen](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIScreenBlendMode.png)
+![Screen](https://docs-assets.developer.apple.com/published/9836f664fed2bf605a485e81428868e7/media-3546401%402x.png)
 
 ---
 
@@ -56,7 +56,7 @@ Brightens the image by inversely multiplying the colors. Good for glows and ligh
 
 Applies a soft diffuse lighting effect, subtly brightening or darkening.
 
-![Soft Light](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CISoftLightBlendMode.png)
+![Soft Light](https://docs-assets.developer.apple.com/published/0d40196a3d56b64f67e95392a94f95ad/media-3546414%402x.png)
 
 ---
 
@@ -64,7 +64,7 @@ Applies a soft diffuse lighting effect, subtly brightening or darkening.
 
 Combines Multiply and Screen but with stronger contrast, like shining a harsh spotlight.
 
-![Hard Light](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIHardLightBlendMode.png)
+![Hard Light](https://docs-assets.developer.apple.com/published/6b45a3c5632aeedb7459e3b99d7e0c88/media-3546417%402x.png)
 
 ---
 
@@ -72,7 +72,7 @@ Combines Multiply and Screen but with stronger contrast, like shining a harsh sp
 
 Subtracts darker colors, creating an inverted or “difference” look.
 
-![Difference](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIDifferenceBlendMode.png)
+![Difference](https://docs-assets.developer.apple.com/published/3ee0a9ae978a0ce09f0123192f07755e/media-3546411%402x.png)
 
 ---
 
@@ -80,7 +80,7 @@ Subtracts darker colors, creating an inverted or “difference” look.
 
 Similar to Difference but with lower contrast for subtler effects.
 
-![Exclusion](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIExclusionBlendMode.png)
+![Exclusion](https://docs-assets.developer.apple.com/published/5d49d432b21ef4c8d27b830da632e791/media-3546412%402x.png)
 
 ---
 
@@ -88,7 +88,7 @@ Similar to Difference but with lower contrast for subtler effects.
 
 Shows the source only where the background exists; useful for masking.
 
-![Source In](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CISourceInCompositing.png)
+![Source In](https://docs-assets.developer.apple.com/published/32f7c1ac0ea53f002ad3d02e0d04a432/media-3546409%402x.png)
 
 ---
 
@@ -96,7 +96,7 @@ Shows the source only where the background exists; useful for masking.
 
 Shows the source where the background is transparent; useful for “cutouts”.
 
-![Source Out](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CISourceOutCompositing.png)
+![Source Out](https://docs-assets.developer.apple.com/published/42f7c1ac0ea53f002ad3d02e0d04a432/media-3546407%402x.png)
 
 ---
 
@@ -104,4 +104,4 @@ Shows the source where the background is transparent; useful for “cutouts”.
 
 Draws the background over the source.
 
-![Destination Over](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/Art/CIDestinationOverCompositing.png)
+![Destination Over](https://docs-assets.developer.apple.com/published/20d111e08f8307e32f0141a64bb86c0f/media-3546413%402x.png)
