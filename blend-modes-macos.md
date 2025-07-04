@@ -56,7 +56,7 @@ Brightens the image by inversely multiplying the colors. Good for glows and ligh
 
 Applies a soft diffuse lighting effect, subtly brightening or darkening.
 
-![Soft Light](https://docs-assets.developer.apple.com/published/0d40196a3d56b64f67e95392a94f95ad/media-3546414%402x.png)
+![Soft Light](https://docs-assets.developer.apple.com/published/463156a516dd903c1f014180b13fccb6/media-3546420%402x.png)
 
 ---
 
@@ -64,7 +64,7 @@ Applies a soft diffuse lighting effect, subtly brightening or darkening.
 
 Combines Multiply and Screen but with stronger contrast, like shining a harsh spotlight.
 
-![Hard Light](https://docs-assets.developer.apple.com/published/6b45a3c5632aeedb7459e3b99d7e0c88/media-3546417%402x.png)
+![Hard Light](https://docs-assets.developer.apple.com/published/1cfa5f0a3702e584b3a804b46d4a7e94/media-3546423%402x.png)
 
 ---
 
@@ -72,7 +72,7 @@ Combines Multiply and Screen but with stronger contrast, like shining a harsh sp
 
 Subtracts darker colors, creating an inverted or “difference” look.
 
-![Difference](https://docs-assets.developer.apple.com/published/3ee0a9ae978a0ce09f0123192f07755e/media-3546411%402x.png)
+![Difference](https://docs-assets.developer.apple.com/published/691a36c10e1f6e4c243d7f7e1e4f00bf/media-3546421%402x.png)
 
 ---
 
@@ -80,7 +80,7 @@ Subtracts darker colors, creating an inverted or “difference” look.
 
 Similar to Difference but with lower contrast for subtler effects.
 
-![Exclusion](https://docs-assets.developer.apple.com/published/5d49d432b21ef4c8d27b830da632e791/media-3546412%402x.png)
+![Exclusion](https://docs-assets.developer.apple.com/published/79e2a1920dfd1c425f681726390098e9/media-3546422%402x.png)
 
 ---
 
@@ -88,7 +88,7 @@ Similar to Difference but with lower contrast for subtler effects.
 
 Shows the source only where the background exists; useful for masking.
 
-![Source In](https://docs-assets.developer.apple.com/published/32f7c1ac0ea53f002ad3d02e0d04a432/media-3546409%402x.png)
+![Source In](https://docs-assets.developer.apple.com/published/fbe77ebf330b4ed9aa2628f1ab5df57d/media-3546418%402x.png)
 
 ---
 
@@ -96,7 +96,7 @@ Shows the source only where the background exists; useful for masking.
 
 Shows the source where the background is transparent; useful for “cutouts”.
 
-![Source Out](https://docs-assets.developer.apple.com/published/42f7c1ac0ea53f002ad3d02e0d04a432/media-3546407%402x.png)
+![Source Out](https://docs-assets.developer.apple.com/published/c716c8d9966b2d738b28f10f73a2a18c/media-3546417%402x.png)
 
 ---
 
@@ -104,4 +104,4 @@ Shows the source where the background is transparent; useful for “cutouts”.
 
 Draws the background over the source.
 
-![Destination Over](https://docs-assets.developer.apple.com/published/20d111e08f8307e32f0141a64bb86c0f/media-3546413%402x.png)
+![Destination Over](https://docs-assets.developer.apple.com/published/f3e2e3e38d52f3f810dbd3bc2184a9d4/media-3546419%402x.png)
