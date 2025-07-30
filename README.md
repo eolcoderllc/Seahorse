@@ -1,1 +1,1 @@
-This is the GitHub support site for Seahorse. The 100% CPU based image editor for OSX. Use the [Issues Tab](https://github.com/eolcoderllc/Seahorse/issues) to file a support request, or send an email to [seahorse@eolcoder.com](mailto:seahorse@eolcoder.com)
+This is the GitHub support site for Seahorse. The 100% CPU based image editor for OSX. Click [here](https://github.com/eolcoderllc/Seahorse/issues/new) to file a support request, or send an email to [seahorse@eolcoder.com](mailto:seahorse@eolcoder.com)
