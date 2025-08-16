@@ -65,6 +65,10 @@ iPad pro and possibly an external monitor to be truly useful but it's too early 
 
 Possibly. Contact me at the email below and let's talk.
 
+## Why is it called Seahorse?
+
+As a tribute to my late father - an octogenarian that love technology. When discussing Seashore he would always seem to call it Seahorse, and the name stuck.
+
 ## Where can I get Seahorse?
 
 It is available for [download](https://apps.apple.com/us/app/seahorse-image-editor/id6742335288?mt=12) on the App Store.
