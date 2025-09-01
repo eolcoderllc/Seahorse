@@ -26,7 +26,7 @@ changes.
 
 ## Will Seahorse work on my older Mac?
 
-Depends. Seahorse requires OSX 13+ which is compatible with most Macs since 2017. There were just too many complications trying to support OSX versions older than that. Seahorse has a lot of new capabilities that required later OSX versions. This may change if Apple makes some of the newer APIs more backward compatible but that is a longshot.
+Depends. Seahorse requires OSX 13+ which is compatible with most Macs since 2017. There were just too many complications trying to support OSX versions older than that. Seahorse has a lot of new capabilities that required later OSX versions. This may change if Apple makes some of the newer APIs more backward compatible but that is a longshot. I hate electronic waste, but an M1 Mac Mini can be bought on eBay for $200 - and it's an amazing machine.
 
 ## Is Seahorse simply a clone of Seashore?
 
