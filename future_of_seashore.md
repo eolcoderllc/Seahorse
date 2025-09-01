@@ -24,6 +24,10 @@ Nothing. It will still be on the App Store, and people can chose to use that for
 fix critical bugs if they are reported. This is becomming very time consuming, as the latest XCode cannot build for older OSes without a lot of manual
 changes.
 
+## Will Seahorse work on my older Mac?
+
+Depends. Seahorse requires OSX 13+ which is compatible with most Macs since 2017. There were just too many complications trying to support OSX versions older than that. Seahorse has a lot of new capabilities that required later OSX versions. This may change if Apple makes some of the newer APIs more backward compatible but that is a longshot.
+
 ## Is Seahorse simply a clone of Seashore?
 
 No, not at all. It is a brand new code base written from the ground up in Swift using SwiftUI and GPU native operations. This application should be very 
