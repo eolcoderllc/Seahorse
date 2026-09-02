@@ -34,6 +34,8 @@ No, not at all. It is a brand new code base written from the ground up in Swift 
 stable, more performant, and far easier to maintain moving forward - reducing the number of hours I need to spend. It has most of the features of Seashore, 
 and has a few more - like the "people selection". It uses a completely dynamic Core Image Filter layer allowing more filters to be added more easily.
 
+Check out the [Seahorse User Guide](Seahorse Guide.pdf)
+
 ## I know Seashore very well. How hard is it to learn Seahorse?
 
 It should be a _piece of cake_. I've tried to retain the simplicity of Seashore, and kept the user interface **very** similar. The major difference is that Seahorse does not have layer linking, it offers the much more powerful layer grouping instead. It will support multiple layer selection in the future as a means of quick grouping. The other major difference is that Seahorse offers machine learning based tools, like object erase and image enhancement which can make image editing far simpler.
