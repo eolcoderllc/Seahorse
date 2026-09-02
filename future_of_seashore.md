@@ -34,7 +34,7 @@ No, not at all. It is a brand new code base written from the ground up in Swift 
 stable, more performant, and far easier to maintain moving forward - reducing the number of hours I need to spend. It has most of the features of Seashore, 
 and has a few more - like the "people selection". It uses a completely dynamic Core Image Filter layer allowing more filters to be added more easily.
 
-Check out the [Seahorse User Guide](Seahorse Guide.pdf)
+Check out the [Seahorse User Guide](Seahorse%20Guide.pdf)
 
 ## I know Seashore very well. How hard is it to learn Seahorse?
 
@@ -67,8 +67,7 @@ Maybe, but in the end the code was of such low quality or simply didn't work tha
 
 ## Is there an iPad version of Seahorse?
 
-Not yet. I've done some preliminary proof of concept testing but my priority has been getting Seahorse finished for the Mac first. It will probably require an
-iPad pro and possibly an external monitor to be truly useful but it's too early to know for certain.
+Yes! It's called [Seahorse Touch](https://apps.apple.com/us/app/seahorse-touch/id6792160857). It has all of the power of the Mac application and is available on the App Store.
 
 ## I tried Seahorse and it's amazing. Do you do consulting on Swift and SwiftUI best practices?
 
