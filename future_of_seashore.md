@@ -34,7 +34,7 @@ No, not at all. It is a brand new code base written from the ground up in Swift 
 stable, more performant, and far easier to maintain moving forward - reducing the number of hours I need to spend. It has most of the features of Seashore, 
 and has a few more - like the "people selection". It uses a completely dynamic Core Image Filter layer allowing more filters to be added more easily.
 
-Check out the [Seahorse User Guide](Seahorse%20Guide.pdf)
+Check out the [Seahorse User Guide](https://seahorse.eolcoder.com/seahorse_guide_3.7.pdf)
 
 ## I know Seashore very well. How hard is it to learn Seahorse?
 
